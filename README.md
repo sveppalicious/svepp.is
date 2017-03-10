@@ -1,2 +1,2 @@
-# sveppi.is
+# svepp.is
 My personal website
