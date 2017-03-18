@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "Sverrir Þór Sigurðarson",
+    "label": "Programmer",
+    "picture": "",
+    "email": "sverrir.sigurdarson@gmail.com",
+    "phone": "+354 699-1842",
+    "website": "https://svepp.is",
+    "summary": "I'm a 21 year old computer science student.",
+    "location": {
+      "address": "Ólafsgeisli 69",
+      "postalCode": "113",
+      "city": "Reykjavík",
+      "countryCode": "IS",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "sveppalicious",
+        "url": "https://github.com/sveppalicious"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Menntaskólinn í Reykjavík",
+      "position": "Teacher",
+      "website": "http://www.mr.is/",
+      "startDate": "2016-08-01",
+      "endDate": "2017-04-25",
+      "summary": "I'm a part-time computer education teacher at Menntaskólinn í Reykjavík."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Reykjavík",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2015-08-20",
+      "endDate": ""
+    },
+    {
+      "institution": "Commercial College of Iceland",
+      "area": "Economics",
+      "studyType": "Matriculation exam (Stúdentspróf)",
+      "startDate": "2011-08-20",
+      "endDate": "2015-05-10"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "UNIX",
+      "level": "Master",
+      "keywords": [
+        "Bash",
+        "Zsh",
+        "Vim"
+      ]
+    },
+    {
+      "name": "Programming languages",
+      "level": "Master",
+      "keywords": [
+        "C++",
+        "Python",
+        "SageMath"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Icelandic",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Danish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ]
+}
