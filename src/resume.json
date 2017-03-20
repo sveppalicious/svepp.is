@@ -6,7 +6,7 @@
     "email": "sverrir.sigurdarson@gmail.com",
     "phone": "+354 699-1842",
     "website": "https://svepp.is",
-    "summary": "I'm a 21 year old computer science student.",
+    "summary": "I'm 21 years old. I study computer science at the University of Reykjavík, but I'm taking the current semester off. I'm planning to resume my studies fall 2017.",
     "location": {
       "address": "Ólafsgeisli 69",
       "postalCode": "113",
@@ -38,12 +38,12 @@
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2015-08-20",
-      "endDate": ""
+      "endDate": "may 2018"
     },
     {
       "institution": "Commercial College of Iceland",
       "area": "Economics",
-      "studyType": "Matriculation exam (Stúdentspróf)",
+      "studyType": "Stúdentspróf",
       "startDate": "2011-08-20",
       "endDate": "2015-05-10"
     }

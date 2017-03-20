@@ -8,6 +8,10 @@
   justify-content: center;
   align-items: center;
 }
+.about {
+  margin: auto;
+  max-width: 600px;
+}
 .container {
   margin: 40px auto;
   position: absolute;
@@ -23,10 +27,9 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-.about {
-
-}
-
+.about, .work, .education, .skills {
+  margin-bottom: 30px;
+}1
 .App-header {
   background-color: #222;
   height: 150px;
