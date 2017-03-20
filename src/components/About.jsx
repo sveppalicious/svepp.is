@@ -1,23 +1,23 @@
 import React from 'react';
-import Work from './Work';
-import Skills from './Skills';
-import Education from './Education';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-const About = (props) => {
-  const profileData = props.jsonObj.basics;
-  const aboutData = profileData.summary;
-  const workData = props.jsonObj.work;
-  const skillsData = props.jsonObj.skills;
-  const educationData = props.jsonObj.education;
-  console.log(profileData)
-  return (
-    <MuiThemeProvider>
-      <div className="about">
-        <Work workData={workData}/>
-        <Skills skillsData={skillsData} />
-        <Education educationData={educationData} />
-      </div>
-    </MuiThemeProvider>
-  )
-}
+import {Card, CardTitle, CardMedia, CardText} from 'material-ui/Card';
+import Code from 'material-ui/svg-icons/action/code';
+import Photo from '../../public/sverrir.jpg';
+const About = props => {
+
+  	return (
+  	  <Card className="skills">
+        <CardTitle
+          title={props.profileData.name}
+          subtitle={props.profileData.label}
+        />
+        <CardMedia>
+          <img src={Photo} alt="Photo of me"/>
+        </CardMedia>
+        <CardText>
+          {props.profileData.summary}
+        </CardText>
+      </Card>
+  	)
+};
+
 export default About;

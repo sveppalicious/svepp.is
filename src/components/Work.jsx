@@ -18,9 +18,9 @@ const Work = props => {
           title="Work experience"
           avatar={<Domain/>}
         />
-        <CardText>
+
           {getWorkExperience()}
-        </CardText>
+        
       </Card>
     );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import Divider from 'material-ui/Divider';
+import {Card, CardHeader, CardText, CardTitle} from 'material-ui/Card';
 
 const WorkItem = props => {
     const getWorkDates = () => {
@@ -18,12 +19,15 @@ const WorkItem = props => {
 
 
     return (
-        <section className="workItem">
-          <Divider></Divider>
-          <p>{props.workItemData.position}, <span>{props.workItemData.company}</span></p>
-          <p className="workDates">{getWorkDates()}</p>
-          <p>{props.workItemData.summary}</p>
-        </section>
+      <Card zDepth='0'>
+        <CardTitle
+          title={<p>{props.workItemData.position} at <span>{props.workItemData.company}</span></p>}
+          subtitle={<p className="workDates">{getWorkDates()}</p>}
+        />
+        <CardText>
+          {props.workItemData.summary}
+        </CardText>
+      </Card>
     )
 };
 

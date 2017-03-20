@@ -6,7 +6,7 @@
     "email": "sverrir.sigurdarson@gmail.com",
     "phone": "+354 699-1842",
     "website": "https://svepp.is",
-    "summary": "I'm 21 years old. I study computer science at the University of Reykjavík, but I'm taking the current semester off. I'm planning to resume my studies fall 2017.",
+    "summary": "I'm a 21 year old programmer. I live in Reykjavík, but I've spent most of my life in Copenhagen. I've been studying computer science at the University of Reykjavík (currently on a study break, starting my 2nd year in fall 2017). I've been programming regularly for 4 years and using Arch Linux for 2 years.",
     "location": {
       "address": "Ólafsgeisli 69",
       "postalCode": "113",
@@ -30,6 +30,14 @@
       "startDate": "2016-08-01",
       "endDate": "2017-04-25",
       "summary": "I'm a part-time computer education teacher at Menntaskólinn í Reykjavík."
+    },
+    {
+      "company": "Isavia",
+      "position": "Passenger service",
+      "website": "https://www.isavia.is/",
+      "startDate": "2016-05-11",
+      "endDate": "2016-08-11",
+      "summary": "Provided information and assistance to passengers at Keflavík International Airport."
     }
   ],
   "education": [
@@ -43,7 +51,7 @@
     {
       "institution": "Commercial College of Iceland",
       "area": "Economics",
-      "studyType": "Stúdentspróf",
+      "studyType": "Matriculation exam (Stúdentspróf)",
       "startDate": "2011-08-20",
       "endDate": "2015-05-10"
     }
@@ -61,7 +69,7 @@
       ]
     },
     {
-      "name": "UNIX",
+      "name": "UNIX/Linux",
       "level": "Master",
       "keywords": [
         "Bash",
@@ -74,6 +82,7 @@
       "level": "Master",
       "keywords": [
         "C++",
+        "Java",
         "Python",
         "SageMath"
       ]
