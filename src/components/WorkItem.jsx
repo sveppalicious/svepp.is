@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import Divider from 'material-ui/Divider';
-import {Card, CardHeader, CardText, CardTitle} from 'material-ui/Card';
+import {Card, CardText, CardTitle} from 'material-ui/Card';
 
 const WorkItem = props => {
     const getWorkDates = () => {

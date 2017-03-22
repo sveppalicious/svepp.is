@@ -1,7 +1,5 @@
 import React from 'react';
-import {Card, CardTitle, CardMedia, CardText} from 'material-ui/Card';
-import Code from 'material-ui/svg-icons/action/code';
-import Photo from '../../public/sverrir.jpg';
+import {Card, CardTitle, CardText} from 'material-ui/Card';
 const About = props => {
 
   	return (
@@ -10,9 +8,6 @@ const About = props => {
           title={props.profileData.name}
           subtitle={props.profileData.label}
         />
-        <CardMedia>
-          <img src={Photo} alt="Photo of me"/>
-        </CardMedia>
         <CardText>
           {props.profileData.summary}
         </CardText>

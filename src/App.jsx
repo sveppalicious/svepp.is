@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Header from './components/Header'
 import Resume from './components/Resume'
 import RaisedButton from 'material-ui/RaisedButton';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {deepOrange500} from 'material-ui/styles/colors';
 import HttpsRedirect from 'react-https-redirect';
-import FontIcon from 'material-ui/FontIcon';
-import Keyboard from 'material-ui/svg-icons/hardware/keyboard';
+import Email from 'material-ui/svg-icons/communication/email';
 import AccountCircle from 'material-ui/svg-icons/action/account-circle';
 import Code from 'material-ui/svg-icons/action/code';
 const json = require('./resume.json');
 
 const style = {
-  margin: 12,
+  margin: 6,
 };
 
 const Home = () => (
@@ -31,22 +29,22 @@ const Home = () => (
                   icon={<AccountCircle/>}
                 />
               </Link>
-              <Link to="/blog">
-                <RaisedButton
-                  label="Blog"
-                  secondary={true}
-                  style={style}
-                  icon={<Keyboard/>}
-                />
-              </Link>
-              <Link to="/code">
-                <RaisedButton
-                  label="Code"
-                  secondary={true}
-                  style={style}
-                  icon={<Code/>}
-                />
-              </Link>
+              <a href="https://github.com/sveppalicious">
+              <RaisedButton
+                label="Code"
+                secondary={true}
+                style={style}
+                icon={<Code/>}
+              />
+            </a>
+            <a href="mailto:sverrir@svepp.is">
+              <RaisedButton
+                label="Contact"
+                secondary={true}
+                style={style}
+                icon={<Email/>}
+              />
+            </a>
             </div>
           </div>
       </MuiThemeProvider>
@@ -58,8 +56,8 @@ const App = () => (
     <div>
       <Route exact path="/" component={Home}/>
       <Route path="/about" render={() => <Resume jsonObj={json}></Resume>}/>
-      <Route path="/blog" render={() => <h1>Blog</h1>}/>
-      <Route path="/code" render={() => <h1>Code</h1>}/>
+      {/* <Route path="/blog" render={() => <h1>Blog</h1>}/>
+      <Route path="/code" render={() => <h1>Code</h1>}/> */}
     </div>
   </Router>
 )

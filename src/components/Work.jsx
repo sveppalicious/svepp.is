@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkItem from './WorkItem';
-import {Card, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardHeader} from 'material-ui/Card';
 import Domain from 'material-ui/svg-icons/social/domain';
 
 const Work = props => {
@@ -20,7 +20,7 @@ const Work = props => {
         />
 
           {getWorkExperience()}
-        
+
       </Card>
     );
 };

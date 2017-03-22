@@ -15,6 +15,10 @@ const styles = {
   },
   icon : {
     iconColor: '#ffffff'
+  },
+  title : {
+    margin: 'auto',
+    flex: 'inherit'
   }
 
 }
@@ -29,11 +33,10 @@ const Back = (
 
 const Resume = (props) => {
   const profileData = props.jsonObj.basics;
-  const aboutData = profileData.summary;
   const workData = props.jsonObj.work;
   const skillsData = props.jsonObj.skills;
   const educationData = props.jsonObj.education;
-  console.log(workData)
+  //console.log(workData)
   return (
     <MuiThemeProvider>
       <div>
@@ -41,10 +44,9 @@ const Resume = (props) => {
         title="About me"
         style={styles.appBar}
         iconElementLeft={Back}
-      >
-
-      </AppBar>
-      <div className="about">
+        titleStyle={styles.title}
+      />
+      <div className="resume">
         <About profileData={profileData}/>
         <Work workData={workData}/>
         <Education educationData={educationData} />

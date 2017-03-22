@@ -9,7 +9,7 @@ const images = [
   ]
 const size = {
   big: { width: 680, height: 384 },
-  small: { width: 320, height: 190 },
+  small: { width: 256, height: 154 },
 }
 const browserHandler = {
   firefox: () =>
@@ -42,6 +42,7 @@ const browserHandler = {
             if (matches) {
                 return (
                   <AtvImg
+                    className="Header"
                     layers={images}
                     style={size.big}
                   />

@@ -6,7 +6,7 @@
     "email": "sverrir.sigurdarson@gmail.com",
     "phone": "+354 699-1842",
     "website": "https://svepp.is",
-    "summary": "I'm a 21 year old programmer. I live in Reykjavík, but I've spent most of my life in Copenhagen. I've been studying computer science at the University of Reykjavík (currently on a study break, starting my 2nd year in fall 2017). I've been programming regularly for 4 years and using Arch Linux for 2 years.",
+    "summary": "I'm a 21 years old aspiring computer scientist. I live in Reykjavík, but I've spent most of my life in Copenhagen. At the moment I'm taking a study break, but I'll be starting my 2nd year at Reykjavík University this autumn.",
     "location": {
       "address": "Ólafsgeisli 69",
       "postalCode": "113",
@@ -46,7 +46,7 @@
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "2015-08-20",
-      "endDate": "may 2018"
+      "endDate": "2019-05"
     },
     {
       "institution": "Commercial College of Iceland",
@@ -63,7 +63,7 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript",
+        "JavaScript",
         "React",
         "Node.js"
       ]
@@ -83,7 +83,14 @@
       "keywords": [
         "C++",
         "Java",
-        "Python",
+        "Python"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Master",
+      "keywords": [
+        "LaTeX",
         "SageMath"
       ]
     }

@@ -1,5 +1,4 @@
 import React from 'react';
-import Divider from 'material-ui/Divider';
 import Chip from 'material-ui/Chip';
 import Subheader from 'material-ui/Subheader';
 import {pinkA100} from 'material-ui/styles/colors';
@@ -25,9 +24,6 @@ const SkillItem = props => {
       </Chip>
     )
   });
-
-
-
     return (
         <div className="skillItem" style={styles.wrapper}>
           <Subheader>{props.skillItemData.name}</Subheader>
